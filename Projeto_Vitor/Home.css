@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/**---------Background e Grid-------*/
+h1 {
+    font-family: Arial;
+    font-size: 50pt;
+    color: whitesmoke;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(48, 48, 51)
+}
+
+.destaque{
+    width: 45%;
+    height: 45%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border:3px solid red;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 30%;
+    grid-template-rows: 20%;
+}
+
+.container {
+    display: grid;
+}
+
+.cartazes {
+    align-items: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    color: white;
+    margin: 0% 10% 0% 10%;
+    max-width: 1200px;
+    min-width: 800px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cartazes>div {
+    border: 3px;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: auto;
+    max-width: 1200px;
+    min-width: 800px;
+    
+}
+.img{
+    width: 100%;
+}
+
+/**------Barra de Menu-------*/
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+#menu-h {
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+    cursor: pointer;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+#logo {
+    max-width: 20%;
+    width: 20%;
+    height: 20%;
+    text-align: left;
+}
+
+#barra {
+    margin-left: 15%;
+    padding: 40px;
+    color: #FFF;
+    width: 20px;
+    border: 1px;
+    border-radius: 5px
+}
+
+/* barra de menu */
+figcaption{
+    font-size: 15px;
+    text-align: justify;
+}
